@@ -13,7 +13,7 @@ This Lambda code and SAM template together ensure that CloudTrail Logging is not
 
 
 ### High level flow
-Once set up, this setup would work as follows:
+Once set up, this would work as follows:
 
 - Customer accidentaly turns OFF logging 
 - Cloudwatch event catches this and immediately triggers the Lambda function 
@@ -22,5 +22,5 @@ Once set up, this setup would work as follows:
 
 ### Additional Considerations
 
-- Email triggers can be setup at the Cloudwatch event side to notify of this activity.
-- The code can be expanded to provide SNS notification
+- Email triggers can be setup using the Cloudwatch event side to further notify of this activity
+- Alternatively, the code can be also be expanded to provide SNS notifications
