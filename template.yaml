@@ -17,9 +17,6 @@ Resources:
               Bucket: !Ref BucketName
               Key: !Ref CodeKey
             Policies:
-              - LambdaInvokePolicy:
-                FunctionName:
-                  Ref: FunctionNameParam
               - Version: '2012-10-17' # CloudTrail Policy Document
                 Statement:
                   - Effect: Allow
