@@ -2,7 +2,7 @@
 
 This Lambda code and SAM template together ensure that CloudTrail Logging is not disabled by accident.
 
-### Pre-requisites
+### Prerequisites
 - Cloudtrail should be already configured with logging turned ON.
 
 
